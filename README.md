@@ -86,3 +86,8 @@ The & indicates that this argument is a reference, which gives you a way to let 
 Rust에는 랜덤숫자를 뽑아주는 기능이 없지만 rand 라이브러리가 있음
 
 `use rand::Rng;`
+The Rng trait defines methods that random number generators implement, and this trait must be in scope for us to use those methods.
+Chapter 10 will cover traits in detail.
+
+`cargo doc --open`
+which will build documentation provided by all of your dependencies locally and open it in your browser. If you’re interested in other functionality in the rand crate, for example, run cargo doc --open and click rand in the sidebar on the left.
