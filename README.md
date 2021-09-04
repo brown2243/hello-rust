@@ -1,6 +1,4 @@
-# Rust
-
-## hello-rust
+## 1. Getting Started
 
 ### 기초 명령어
 
