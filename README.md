@@ -91,3 +91,7 @@ Chapter 10 will cover traits in detail.
 
 `cargo doc --open`
 which will build documentation provided by all of your dependencies locally and open it in your browser. If you’re interested in other functionality in the rand crate, for example, run cargo doc --open and click rand in the sidebar on the left.
+
+### use std::cmp::Ordering;
+
+`std::cmp::Ordering` into scope from the standard library. Like Result, Ordering is another enum, but the variants for Ordering are Less, Greater, and Equal. These are the three outcomes that are possible when you compare two values.
